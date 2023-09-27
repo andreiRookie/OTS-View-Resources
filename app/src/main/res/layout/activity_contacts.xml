@@ -6,4 +6,115 @@
     android:layout_height="match_parent"
     tools:context=".ContactsActivity">
 
+    <include
+        android:id="@+id/name_block"
+        layout="@layout/input_field_block"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/contacts_start_end_margin_16dp"
+        android:layout_marginTop="@dimen/contacts_top_bottom_margin_24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <include
+        android:id="@+id/phone_block"
+        layout="@layout/input_field_block"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/contacts_start_end_margin_16dp"
+        android:layout_marginTop="@dimen/contacts_top_bottom_margin_24dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/name_block"
+        app:layout_constraintEnd_toStartOf="@id/select_block"/>
+
+    <include
+        android:id="@+id/select_block"
+        layout="@layout/select_field_block"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginHorizontal="@dimen/contacts_start_end_margin_16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@id/phone_block"
+        app:layout_constraintBottom_toBottomOf="@id/phone_block"
+        app:layout_constraintStart_toEndOf="@id/phone_block"/>
+
+    <include
+        android:id="@+id/address_block"
+        layout="@layout/input_field_block"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/contacts_start_end_margin_16dp"
+        android:layout_marginTop="@dimen/contacts_top_bottom_margin_24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/phone_block"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <include
+        android:id="@+id/city_block"
+        layout="@layout/input_field_block"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/contacts_start_end_margin_16dp"
+        android:layout_marginTop="@dimen/contacts_top_bottom_margin_24dp"
+        app:layout_constraintTop_toBottomOf="@id/address_block"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/state_block"/>
+
+    <include
+        android:id="@+id/state_block"
+        layout="@layout/select_field_block"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/contacts_start_end_margin_16dp"
+        app:layout_constraintTop_toTopOf="@id/city_block"
+        app:layout_constraintStart_toEndOf="@id/city_block"
+        app:layout_constraintEnd_toStartOf="@id/zip_block"/>
+
+    <include
+        android:id="@+id/zip_block"
+        layout="@layout/input_field_block"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/contacts_start_end_margin_16dp"
+        app:layout_constraintTop_toTopOf="@id/city_block"
+        app:layout_constraintStart_toEndOf="@id/state_block"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <include
+        android:id="@+id/birthday_block"
+        layout="@layout/input_field_block"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/contacts_start_end_margin_16dp"
+        android:layout_marginTop="@dimen/contacts_top_bottom_margin_24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/city_block"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <include
+        android:id="@+id/notes_block"
+        layout="@layout/input_field_block"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/contacts_start_end_margin_16dp"
+        android:layout_marginTop="@dimen/contacts_top_bottom_margin_24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/birthday_block"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <Button
+        android:id="@+id/register_button"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginHorizontal="@dimen/contacts_start_end_margin_16dp"
+        android:layout_marginBottom="@dimen/contacts_top_bottom_margin_24dp"
+        android:text="Register"
+        android:backgroundTint="@color/green_400"
+        />
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
