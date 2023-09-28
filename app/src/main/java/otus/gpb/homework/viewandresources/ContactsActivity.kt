@@ -55,7 +55,7 @@ class ContactsActivity : AppCompatActivity() {
     }
 
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {
-        menuInflater.inflate(R.menu.action_bar_menu, menu)
+        menuInflater.inflate(R.menu.contacts_action_bar_menu, menu)
         return super.onCreateOptionsMenu(menu)
     }
 
@@ -63,7 +63,7 @@ class ContactsActivity : AppCompatActivity() {
         when (item.itemId) {
             android.R.id.home -> {
                 onBackPressed()
-                Toast.makeText(this, "OnBackPressed", Toast.LENGTH_SHORT).show()
+                Toast.makeText(this, "Contacts OnBackPressed", Toast.LENGTH_SHORT).show()
                 return true
             }
         }

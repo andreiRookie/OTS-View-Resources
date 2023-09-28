@@ -21,7 +21,7 @@
             android:layout_weight="8"
             android:backgroundTint="@color/grey_100"
             android:textColor="@color/white"
-            android:textColorHint="@color/grey_900"
+            android:textColorHint="@color/grey_700"
             tools:hint="@string/name_hint" />
 
         <ImageView

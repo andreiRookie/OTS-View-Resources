@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <dimen name="contacts_field_height_56dp">56dp</dimen>
-    <dimen name="contacts_start_end_margin_16dp">16dp</dimen>
-    <dimen name="contacts_top_bottom_margin_24dp">24dp</dimen>
+    <dimen name="start_end_margin_16dp">16dp</dimen>
+    <dimen name="top_bottom_margin_24dp">24dp</dimen>
+    <dimen name="top_bottom_margin_8dp">8dp</dimen>
 </resources>
