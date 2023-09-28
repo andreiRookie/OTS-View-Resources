@@ -54,11 +54,11 @@
         android:id="@+id/remove_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/ic_close_12"
+        android:src="@drawable/ic_close_16"
         android:background="@color/white"
         app:layout_constraintTop_toBottomOf="@id/item_price"
         app:layout_constraintEnd_toEndOf="@id/item_price"
-        app:layout_constraintBottom_toBottomOf="@id/item_image"
+        app:layout_constraintBottom_toBottomOf="@id/item_caption"
         />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

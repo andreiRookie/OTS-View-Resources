@@ -22,4 +22,11 @@
     <string name="donut">Donut</string>
     <string name="lollipop">Lollipop</string>
     <string name="pay_now_button">Pay now</string>
+    <string name="e_mail_label">E-mail</string>
+    <string name="e_mail_stub">e.g. john@gmail.com</string>
+    <string name="reset_my_password">Reset my password</string>
+    <string name="password_stub">* * * * * *</string>
+    <string name="register_button">Register</string>
+    <string name="sign_in_button">Sign in</string>
+    <string name="password_label">Password</string>
 </resources>
