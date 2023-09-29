@@ -15,6 +15,10 @@
     <color name="grey_700">#424242</color>
     <color name="grey_900">#2B2B2B</color>
 
+    <color name="blue_300">#5C9BC5</color>
     <color name="blue_400">#2980B9</color>
     <color name="green_400">#2ECC71</color>
+    <color name="red_400">#E35555</color>
+    <color name="yellow_green_300">#9FF37C</color>
+    <color name="yellow_300">#FFEB3B</color>
 </resources>

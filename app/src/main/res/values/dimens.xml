@@ -4,4 +4,5 @@
     <dimen name="start_end_margin_16dp">16dp</dimen>
     <dimen name="top_bottom_margin_24dp">24dp</dimen>
     <dimen name="top_bottom_margin_8dp">8dp</dimen>
+    <dimen name="top_bottom_margin_4dp">4dp</dimen>
 </resources>

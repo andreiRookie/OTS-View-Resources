@@ -2,9 +2,9 @@
     <!-- Base application theme. -->
     <style name="Theme.ViewResources" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
         <!-- Primary brand color. -->
-        <item name="colorPrimary">@color/purple_200</item>
-        <item name="colorPrimaryVariant">@color/purple_700</item>
-        <item name="colorOnPrimary">@color/black</item>
+        <item name="colorPrimary">@color/grey_900</item>
+        <item name="colorPrimaryVariant">@color/black</item>
+        <item name="colorOnPrimary">@color/grey_900</item>
         <!-- Secondary brand color. -->
         <item name="colorSecondary">@color/teal_200</item>
         <item name="colorSecondaryVariant">@color/teal_200</item>
@@ -12,5 +12,23 @@
         <!-- Status bar color. -->
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
+        <item name="contactsRegisterButtonColor">@color/blue_300</item>
+        <item name="contactsFieldBackgroundColor">@color/grey_900</item>
+        <item name="contactsFieldBackgroundTintColor">@color/grey_900</item>
+        <item name="contactsUnderLineColor">@color/grey_900</item>
+        <item name="contactsFieldHintColor">@color/grey_100</item>
+        <item name="appBarIconColor">@color/grey_300</item>
+        <item name="cartScreenAccentColor">@color/yellow_green_300</item>
+        <item name="cartScreenPayButtonIconColor">@color/black</item>
+        <item name="cartScreenPayButtonTextColor">@color/black</item>
+        <item name="cartScreenRemoveIconColor">@color/grey_300</item>
+        <item name="cartListItemTextColor">@color/grey_300</item>
+        <item name="cartSummaryItemTextColor">@color/grey_300</item>
+        <item name="cartTotalSummaryItemTextColor">@color/yellow_300</item>
+        <item name="signInScreenSignInButtonColor">@color/blue_300</item>
+        <item name="signInScreenResetPasswordButtonColor">@color/grey_300</item>
+        <item name="signInScreenTextColor">@color/grey_100</item>
+        <item name="signInScreenBackgroundColor">@color/black</item>
+        <item name="actionBarBackgroundColor">?attr/colorPrimary</item>
     </style>
 </resources>

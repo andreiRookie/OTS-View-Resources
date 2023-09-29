@@ -10,7 +10,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         tools:text="line title"
-        android:textColor="?attr/cartSummaryItemTextColor"
+        android:textAppearance="@style/OrderTotalTextStyle"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"/>
@@ -20,7 +20,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         tools:text="line sum"
-        android:textColor="?attr/cartSummaryItemTextColor"
+        android:textAppearance="@style/OrderTotalTextStyle"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"/>

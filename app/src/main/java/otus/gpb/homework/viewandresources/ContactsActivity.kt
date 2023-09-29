@@ -18,6 +18,7 @@ class ContactsActivity : AppCompatActivity() {
         supportActionBar?.apply {
 //            setHomeButtonEnabled(true) - enabled by default
             setHomeAsUpIndicator(R.drawable.ic_arrow_back_24)
+            setBackgroundDrawable(getDrawable(R.drawable.actionbar_background_color))
             setDisplayHomeAsUpEnabled(true)
         }
 

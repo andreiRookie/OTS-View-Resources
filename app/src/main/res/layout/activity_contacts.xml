@@ -104,16 +104,16 @@
         app:layout_constraintStart_toStartOf="parent"/>
 
     <Button
-        android:id="@+id/sign_in_button"
+        android:id="@+id/register_button"
         android:layout_width="0dp"
-        android:layout_height="wrap_content"
+        android:layout_height="@dimen/contacts_field_height_56dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
         android:layout_marginHorizontal="@dimen/start_end_margin_16dp"
         android:layout_marginBottom="@dimen/top_bottom_margin_24dp"
         android:text="@string/register_button"
-        android:backgroundTint="@color/green_400"
+        android:backgroundTint="?attr/contactsRegisterButtonColor"
         />
 
 

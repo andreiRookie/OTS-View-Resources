@@ -12,5 +12,23 @@
         <!-- Status bar color. -->
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
+        <item name="contactsRegisterButtonColor">@color/green_400</item>
+        <item name="contactsFieldBackgroundColor">@color/grey_100</item>
+        <item name="contactsFieldBackgroundTintColor">@color/grey_100</item>
+        <item name="contactsUnderLineColor">@color/grey_300</item>
+        <item name="contactsFieldHintColor">@color/grey_700</item>
+        <item name="appBarIconColor">@color/white</item>
+        <item name="cartScreenAccentColor">@color/grey_900</item>
+        <item name="cartScreenPayButtonIconColor">@color/grey_300</item>
+        <item name="cartScreenPayButtonTextColor">@color/white</item>
+        <item name="cartScreenRemoveIconColor">@color/red_400</item>
+        <item name="cartListItemTextColor">@color/black</item>
+        <item name="cartSummaryItemTextColor">@color/black</item>
+        <item name="cartTotalSummaryItemTextColor">@color/black</item>
+        <item name="signInScreenSignInButtonColor">@color/blue_400</item>
+        <item name="signInScreenResetPasswordButtonColor">@color/blue_400</item>
+        <item name="signInScreenTextColor">@color/black</item>
+        <item name="signInScreenBackgroundColor">@color/white</item>
+        <item name="actionBarBackgroundColor">?attr/colorPrimary</item>
     </style>
 </resources>

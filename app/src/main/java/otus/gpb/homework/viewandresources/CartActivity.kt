@@ -55,11 +55,9 @@ class CartActivity : AppCompatActivity() {
 
         val orderTotalLine = findViewById<ViewGroup>(R.id.order_total)
         orderTotalLine.findViewById<TextView>(R.id.line_title).apply {
-            setTextAppearance(R.style.OrderTotalTextStyle)
             text = getString(R.string.order_total)
         }
         orderTotalLine.findViewById<TextView>(R.id.line_sum).apply {
-            setTextAppearance(R.style.OrderTotalTextStyle)
             text = "55.50"
         }
 

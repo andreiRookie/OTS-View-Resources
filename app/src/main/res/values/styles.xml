@@ -4,6 +4,7 @@
     <style name="OrderTotalTextStyle" parent="TextAppearance.AppCompat">
         <item name="android:textSize" >20sp</item>
         <item name="android:textStyle" >bold</item>
+        <item name="android:textColor">?attr/cartTotalSummaryItemTextColor</item>
     </style>
     
     <style name="PayButtonStyle">
@@ -11,13 +12,32 @@
         <item name="android:clickable">true</item>
         <item name="android:focusable">true</item>
         <item name="android:textAlignment">center</item>
-        <item name="android:textColor">@color/white</item>
+        <item name="android:textColor">?attr/cartScreenPayButtonTextColor</item>
         <item name="android:textSize">20sp</item>
         <item name="android:textStyle">bold</item>
         <item name="android:paddingStart">20dp</item>
         <item name="android:paddingEnd">20dp</item>
         <item name="android:paddingTop">14dp</item>
         <item name="android:paddingBottom">14dp</item>
+    </style>
+
+    <style name="ContactsRegisterButtonStyle">
+        <item name="backgroundTint">?attr/contactsRegisterButtonColor</item>
+    </style>
+
+    <style name="ContactsFieldStyle">
+        <item name="background">?attr/contactsFieldBackgroundColor</item>
+    </style>
+
+    <style name="CartSummaryLineTextStyle" parent="TextAppearance.AppCompat">
+        <item name="android:textSize" >12sp</item>
+        <item name="android:textColor">?attr/cartSummaryItemTextColor</item>
+    </style>
+
+    <style name="SignInScreenSignInTextViewStyle" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">22sp</item>
+        <item name="android:textColor">?attr/signInScreenTextColor</item>
+        <item name="android:textStyle">bold</item>
     </style>
 
 </resources>

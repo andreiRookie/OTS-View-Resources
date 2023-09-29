@@ -2,6 +2,7 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="?attr/signInScreenBackgroundColor"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <TextView
@@ -9,9 +10,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Sign in"
-        android:textSize="22sp"
-        android:textColor="@color/black"
-        android:textStyle="bold"
+        android:textAppearance="@style/SignInScreenSignInTextViewStyle"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintBottom_toTopOf="@id/email_text_input_layout"
@@ -20,10 +19,9 @@
         app:layout_constraintVertical_chainStyle="packed"/>
 
     <Button
-        android:id="@+id/register_button"
+        android:id="@+id/dialog_sign_in_register_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="@dimen/start_end_margin_16dp"
         android:text="@string/register_button"
         android:textColor="@color/blue_400"
         android:background="@android:color/transparent"
@@ -40,7 +38,7 @@
         android:layout_marginHorizontal="@dimen/start_end_margin_16dp"
         android:layout_marginVertical="@dimen/start_end_margin_16dp"
         android:hint="@string/e_mail_label"
-        app:hintTextColor="@color/black"
+        app:hintTextColor="?attr/signInScreenTextColor"
         app:layout_constraintTop_toBottomOf="@id/sign_in_text_view"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -59,7 +57,7 @@
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="@dimen/start_end_margin_16dp"
         android:hint="@string/password_label"
-        app:hintTextColor="@color/black"
+        app:hintTextColor="?attr/signInScreenTextColor"
         app:layout_constraintTop_toBottomOf="@id/email_text_input_layout"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -68,7 +66,8 @@
             android:id="@+id/password_edit_text"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/password_stub"/>
+            android:text="@string/password_stub"
+            android:textColor="?attr/signInScreenTextColor"/>
     </com.google.android.material.textfield.TextInputLayout>
 
     <TextView
@@ -76,26 +75,25 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/reset_my_password"
-        android:textColor="@color/blue_400"
+        android:textColor="?attr/signInScreenResetPasswordButtonColor"
         android:layout_marginEnd="@dimen/start_end_margin_16dp"
         android:layout_marginVertical="@dimen/top_bottom_margin_24dp"
         app:layout_constraintTop_toBottomOf="@id/password_text_input_layout"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintBottom_toTopOf="@id/sign_in_button"/>
+        app:layout_constraintBottom_toTopOf="@id/register_button"/>
 
     <Button
-        android:id="@+id/sign_in_button"
+        android:id="@+id/register_button"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="@dimen/start_end_margin_16dp"
         android:layout_marginBottom="@dimen/top_bottom_margin_24dp"
-
         app:layout_constraintTop_toBottomOf="@id/reset_password_button"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
         android:text="@string/sign_in_button"
-        android:backgroundTint="@color/blue_400"
+        android:backgroundTint="?attr/signInScreenSignInButtonColor"
         />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

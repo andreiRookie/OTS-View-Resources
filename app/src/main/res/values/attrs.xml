@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="contactsRegisterButtonColor" format="color"/>
+    <attr name="contactsFieldBackgroundColor" format="color"/>
+    <attr name="contactsFieldBackgroundTintColor" format="color"/>
+    <attr name="contactsUnderLineColor" format="color"/>
+    <attr name="contactsFieldHintColor" format="color"/>
+    <attr name="appBarIconColor" format="color"/>
+    <attr name="cartScreenAccentColor" format="color"/>
+    <attr name="cartScreenPayButtonIconColor" format="color"/>
+    <attr name="cartScreenPayButtonTextColor" format="color"/>
+    <attr name="cartScreenRemoveIconColor" format="color"/>
+    <attr name="cartListItemTextColor" format="color"/>
+    <attr name="cartSummaryItemTextColor" format="color"/>
+    <attr name="cartTotalSummaryItemTextColor" format="color"/>
+    <attr name="signInScreenSignInButtonColor" format="color"/>
+    <attr name="signInScreenResetPasswordButtonColor" format="color"/>
+    <attr name="signInScreenTextColor" format="color"/>
+    <attr name="signInScreenBackgroundColor" format="color"/>
+    <attr name="actionBarBackgroundColor" format="color"/>
+</resources>
